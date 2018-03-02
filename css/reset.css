@@ -1,3 +1,4 @@
+
 body {
 		margin: 0;
 		border: 0;
@@ -5,7 +6,20 @@ body {
 		background:;
 }
 
-html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
-  }
+h1,h2,h3,h4,h5,nav{
+	font-family: 'Concert One', cursive;
+	color: #00b8d4;
+}
+._nav{
+	background: #00b8d4;
+}
+p{
+	font-family: 'Poiret One', cursive;
+}
+
+.fa-quote-left,.fa-quote-right,.material-icons{
+	color:#fd3e81;
+}
+
+
 
