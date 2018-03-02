@@ -2,5 +2,10 @@ body {
 		margin: 0;
 		border: 0;
 		padding-top: 10px;
+		background:;
 }
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
 
