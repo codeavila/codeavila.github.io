@@ -1,40 +1,26 @@
-# Soy el READMME :D
-==========================================
-My website :D https://dev-euab.github.io
-============================================================
-Este sitio fue creado con la finalidad de demostrar mi portafolio de trabajo utilizando 
-las prestaciones que nos brinda a los programadores # GITHUB.
+# Sitio Web - https://dev-euab.github.io
 
-Creo firmemente que ayudara a que tengas una idea de mis habilidades y mis conocimientos.
+## ¿Porqué hacer el sitio?
 
+###### Hice esta pagina con la finalidad de demostrar mi `Portafolio` ó para un publico diferente mostrar
+###### un Curriculum Vitae. Esto funciona como evidencia de mis habilidades. 
+###### Conocemé me gustaria saber que opinas o que se podria mejorar haz un 'FORK'.
+###### Si te gusta la plantilla es toda tuya.
 
-Sabiendo lo anterior bienvenido y si te gusta mi sitio utilizalo :D 
-
-"El conocimiento compartido es aun mejor"
-=============================================================
-
-Para ver los cambios de manera local del sitio utilice el siguiente comando
-para montar un servidor estatico de manera local :D
-
-### PHP <sub><sup>(>= 5.4)</sup></sub>
-
-```shell
-$ php -S 127.0.0.1:8000
-```
-
-Conoce mas hacerca de esos servidores en el siguiente link
-
-[Click Aqui!!!](https://gist.github.com/willurd/5720255)
+**Comparte lo que sabés, nunca lo guardes, ayuda cuando puedas y mejora cada dia.** 
 
 
-=============================================================
+## ¿Qué tecnologias utilicé? 
 
-# Call me XD
+	* Html5
+	* CSS
+	* Framework [Materializecss](http://materializecss.com) :heart_eyes:
+	* Static Server **PHP <sub><sup>(>= 5.4)</sup></sub> **
+	```shell
+	   $ php -S 127.0.0.1:8000
+	```
+	  ###### Conoce mas acerca de los 'Servidores Estaticos' [_IR_](https://gist.github.com/willurd/5720255)
 
-Ing. Eric Uriel Avila Barrios
+	 * (Fonts Google)[https://fonts.google.com]
+	 * (Font Awesome)[https://fontawesome.com/icons?d=gallery]
 
-Cel Phone: 452 15 47 63 9
-
-Mail : cirexuab@gmail.com
-
-=============================================================
