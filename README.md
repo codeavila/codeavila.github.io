@@ -11,9 +11,9 @@
 - Html5
 - CSS
 - Framework [Materializecss](http://materializecss.com) :heart_eyes:
-- Static Server **PHP <sub><sup>(>= 5.4)</sup></sub> **
+- Static Server **NPM <sub><sup>Node.js</sup></sub> **
  ```shell
-   $ php -S 127.0.0.1:8000
+   $ http-server -p 8000
 ```
 ###### Conoce mas acerca de los 'Servidores Estaticos' [_IR_](https://gist.github.com/willurd/5720255)
 
