@@ -7,7 +7,7 @@
 /* MENU Estilos
 /********************************************************/
 nav {
-  margin: 10px;
+  margin: 15px;
 }
 ._navMenu ul {
   float: right;
@@ -17,4 +17,38 @@ nav {
 ._navMenu li {
   display: inline;
   padding-left: 20%;
+}
+.img-l {
+  height: 100px;
+}
+/********************************************************/
+/* Ajustes Varios
+/********************************************************/
+.space {
+  margin-top: 40px;
+}
+/********************************************************/
+/* Card Estilos
+/********************************************************/
+.card-body {
+  padding: 20px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.15);
+  height: calc(0%);
+}
+.card-body ul {
+  padding-left: 25px;
+}
+.card-header-img {
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+}
+.card-img {
+  width: 100%;
+}
+.card-content {
+  padding: 18px;
+}
+.card-content p {
+  text-align: right;
 }
