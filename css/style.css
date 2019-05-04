@@ -6,17 +6,8 @@
 /********************************************************/
 /* MENU Estilos
 /********************************************************/
-nav {
-  margin: 15px;
-}
-._navMenu ul {
-  float: right;
-  width: 100%;
-  padding-top: 38px;
-}
-._navMenu li {
-  display: inline;
-  padding-left: 20%;
+._navMenu {
+  height: 95px;
 }
 .img-l {
   height: 100px;
