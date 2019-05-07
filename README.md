@@ -10,7 +10,7 @@
 ## ¿Qué tecnologias utilicé? 
 - Html5
 - CSS
-- Framework [Materializecss](http://materializecss.com) :heart_eyes:
+- Framework [Bootstrap](https://getbootstrap.com/) :heart_eyes:
 - Static Server **NPM <sub><sup>Node.js</sup></sub> **
  ```shell
    $ http-server -p 8000
