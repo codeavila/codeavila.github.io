@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sitio Web - https://dev-euab.github.io
 
 ## ¿Porqué hacer el sitio?
@@ -11,13 +11,11 @@
 ## ¿Qué tecnologias utilicé? 
 - Html5
 - CSS
-- Framework [Materializecss](http://materializecss.com) :heart_eyes:
+- Framework [Bootstrap](https://getbootstrap.com/) :heart_eyes:
 - Static Server **NPM <sub><sup>Node.js</sup></sub> **
  ```shell
    $ http-server -p 8000
 ```
 ###### Conoce mas acerca de los 'Servidores Estaticos' [_IR_](https://gist.github.com/willurd/5720255)
 
-- (Fonts Google)[https://fonts.google.com]
-- (Font Awesome)[https://fontawesome.com/icons?d=gallery]
 
