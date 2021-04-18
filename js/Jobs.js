@@ -61,11 +61,11 @@ function printJobs (array)
 {
     array.forEach(element => {
         document.writeln(`
-        <div class="col-4">
+        <div class="col-sm-12 col-md-6 col-lg-12">
             <div class="card shadow-sm p-3 mb-5 bg-white rounded">
                 ${typeJobs(element.type)}
                 <br>
-                <img src="${element.img}" class="mx-auto img-fluid img-thumbnail" style="width: 250px; height: auto;" alt="...">
+                <img src="${element.img}" class="m-2 mx-auto img-fluid img-thumbnail" style="width: 250px; height: auto;" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">${element.name}</h5>
                 <p class="blockquote-footer">
