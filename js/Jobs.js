@@ -10,7 +10,7 @@ var Jobs = [
     {
         "name":"EDUCEM - Centro de Estudios",
         "link":"http://mieducem.mx/",
-        "img":"http://mieducem.mx/imagenes/logo-educem-cuadro.png",
+        "img":"imgs/educem.png",
         "type":"Job",
         "date":"Start 2018 to 2019",
         "desc":"This is my last job, on this job I learned about C# + ASP.NET on my own using web resources and advices from my coworkes. The first month I gotten the task to rebuild a plataform and... I made it. And my leader projects give me one more proyects and... I made it. All my projects was for implements tools for the students and administratives stuffs."
@@ -61,7 +61,7 @@ function printJobs (array)
 {
     array.forEach(element => {
         document.writeln(`
-        <div class="col-sm-12 col-md-6 col-lg-12">
+        <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="card shadow-sm p-3 mb-5 bg-white rounded">
                 ${typeJobs(element.type)}
                 <br>
