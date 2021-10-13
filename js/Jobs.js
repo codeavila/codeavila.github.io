@@ -26,7 +26,7 @@ var Jobs = [
     {
         "name":"Tepoli Cerveceria",
         "link":"http://www.tepolicerveceria.com/",
-        "img":"http://www.tepolicerveceria.com/img/user.png",
+        "img":"https://tepolicerveceria.com/wp-content/uploads/2021/09/cerveza-artesanal-en-guanajuato-1024x229.png",
         "type":"Project",
         "date":"On 2017",
         "desc":"This is my first web, was made using PHP, MySQL, MaterializeCSS (Framework), FontAwesome, Hostgator (Server), Tepoli Cerveceria. This website its about a CraftBeer called Tepoli from Uruapan,Michoacan Mexico."
