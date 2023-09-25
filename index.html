@@ -1,184 +1,170 @@
-		<!DOCTYPE html>
-		<html lang="en">
-		<head>
-			<!-- Required meta tags -->
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-			<title>Dev - EUAB</title>
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-			<!-- <link type="text/css" rel="stylesheet" href="css/style.css" /> -->
-			<link rel="icon" href="imgs/favicon.ico" />
-			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<!-- Profile JSON Files -->
-			<script type="text/javascript" src="js/Knowledge.js"></script>
-			<script type="text/javascript" src="js/MyDocs.js"></script>
-			<script type="text/javascript" src="js/Jobs.js"></script>
-			<script type="text/javascript" src="js/Me.js"></script>
-		</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="src/style/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="flex flex-col gap-6 m-4">
+    <header>
+      <section class="flex flex-row gap-4 items-center justify-center">
+        <body>
+          <div class="text-right">
+            <p class="text-2xl font-bold">¡Hola! Soy Eric Ávila</p>
+            <p class="text-lg">Un Desarrollador Full Stack o como yo me identifico</p>
+			<p class="text-2xl font-bold">Nomada Stack</p>
+          </div>
+          <div>
+            <img
+              src="/src/imgs/mi.JPG"
+              alt="eric-avila"
+            />
+          </div>
+          <div>
+            "Aprendizaje constante, innovación y colaboración: mi fórmula para el éxito compartido en un mundo en constante cambio."
+          </div>
+        </body>
+      </section>
+    </header>
+    <section>
+      <header>
+        <p class="text-2xl font-bold  mb-4">ACERCA DE MI</p>
+      </header>
+      <body>
+        <section>
+          <p class="indent-4">
+            Soy un Desarrollador Full Stack comprometido con la tecnología y el
+            desarrollo de software. Mi pasión por la innovación tecnológica se
+            traduce en un interés continuo por las últimas tendencias y en
+            compartir conocimientos a través de mi blog personal. Valoro la
+            comunicación y la colaboración, aprendiendo de otros y promoviendo
+            una actitud positiva en todos los proyectos en los que participo. Mi
+            experiencia en roles de liderazgo previos me ha ayudado a
+            desarrollar habilidades de dirección y delegación, complementadas
+            por un enfoque centrado en la satisfacción del cliente.
+          </p>
+          <footer></footer>
+        </section>
+      </body>
+    </section>
+    <section class="flex flex-row">
+      <div class="basis-[70%] flex flex-col gap-4 m-4">
+		<header>
+			<p class="text-2xl font-bold mb-4">EXPERIENCIA LABORAL</p>
+		  </header>
+        <section class="mb-4">
+          <p class="text-xl">Desarrollador Full Stack | Consultor</p>
+          <p class="text-lg">
+            Nexion Solutions | 2019- Actual | Remoto/Home Office
+          </p>
+          <p class="text-lg">Resumen</p>
+          <p>
+            Consultor de clientes remotos, proporcionando asesoría y
+            mantenimiento en código legacy, desarrollo de nuevas características
+            y solución de errores en una variedad de tecnologías, incluyendo
+            Python, Java, JavaScript,Bash Scripting, C#, Arduino y frameworks
+            como React, React Native, Apache Cordova, NET y Spring Boot.
+          </p>
 
-				
-		<body>
+          <p class="text-lg">Logros Destacados</p>
+          <div>
+            <p>
+              Propuse y desarrollé internamente la implementación de la cultura
+              DevOps, llevando a cabo la integración exitosa de CI/CD utilizando
+              Docker, Jenkins, Scripting y Gitlab.
+            </p>
+            <p>
+              He documentado de manera eficiente proyectos y flujos de trabajo
+              utilizando Notion, asegurando una comunicación efectiva dentro del
+              equipo y con los clientes.
+            </p>
+            <p>
+              Líder en la capacitación de nuevos compañeros y proporcionando
+              asesoramiento técnico a desarrolladores del equipo, promoviendo el
+              crecimiento y el conocimiento compartido.
+            </p>
+            <p>
+              Participación activa durante 4 años en proyectos internos de
+              "Innovación y Desarrollo", liderando el desarrollo de soluciones
+              desde cero utilizando tecnologías avanzadas, como Realidad
+              Aumentada, Unity, Inteligencia Artificial, Identificación de
+              Imágenes y hardware IoT, para abordar problemas actuales.
+            </p>
+          </div>
+        </section>
+        <section>
+          <p class="text-xl">Desarrollador .NET C# | Consultor</p>
+          <p class="text-lg">
+            UCEM – Universidad del Centro de México | Feb 2018 – Mayo 2019 |
+            Presencial
+          </p>
+          <p class="text-lg">Resumen</p>
+          <p>
+            Consultor de clientes remotos, proporcionando asesoría y
+            mantenimiento en código legacy, desarrollo de nuevas características
+            y solución de errores en una variedad de tecnologías, incluyendo
+            Python, Java, JavaScript,Bash Scripting, C#, Arduino y frameworks
+            como React, React Native, Apache Cordova, NET y Spring Boot.
+          </p>
 
-			<nav class="navbar nav">
-				<div class="container-fluid">
-					<div class="navbar-header _navMenu  ">
-						<a class="navbar-brand" href="#">
-							<img src="imgs/logo.svg" alt="" height="100" >
-						</a>
-					</div>					
-				</div>
-			</nav>
-			
-			<div class="container">
-				<!-- Space for introduce me :D -->
-				<div class="row">
-					<!-- My little bio -->
-					<div class="col-sm-12 col-lg-9">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<div class="card-body">
-								<h1 class="card-title">Welcome to my Resume :D</h1>
-								<h5 class="cart-text">
-									Feel free to check my profile, I hope you can find something interesting. Regards!!!!..
-								</h5>
-								<p class="text-justify">
-									Hi my name is Eric Avila I'm 31 years old I'm Mexican and I'm a Developer. Let me show you in a nutshell about me.
-								</p> 
-								<p class="text-justify">
-									My passion is developing things, find new technologies, and do something with them, I like read programming articles, read best practices posts and find new stuff in the industry.
-								</p>
-								<p class="text-justify">
-									I'm open to new challenges like learning new languages or take a new project from scratch.
-									I always stay updated and studying as much as possible, as well as listening to the opinions and experiences of my co-workers and friends.
-								</p>								
-								<p class="blockquote-footer">I'm grateful to the people who offered me the opportunity to be part of their projects</p>
-							</div>
-						</div>
-					</div>
-					<!-- My Photo ;) -->
-					<div class="col-sm-12 col-lg-3">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<img src="imgs/euab.JPG" class="img-thumbnail rounded mx-auto d-block" alt="...">
-							<div class="card-body">
-								<h6>Soft Skills</h6>
-								<script>printMeThings(soft_skills)</script>
-							</div>
-								
-							
-						</div>
-					</div>
-				</div>
+          <p class="text-lg">Logros Destacados</p>
+          <div>
+            <p>
+              Responsable del mantenimiento de plataformas internas de uso
+              administrativo y del mantenimiento de uno de los sitios web de la
+              universidad.
+            </p>
+            <p>
+              Lideré el mantenimiento y la mejora continua de las plataformas
+              internas utilizadas para fines administrativos, garantizando su
+              funcionalidad y eficiencia.
+            </p>
+            <p>
+              Participé activamente en la propuesta y desarrollo de nuevas
+              plataformas internas tanto para uso administrativo como para los
+              estudiantes, contribuyendo al crecimiento tecnológico de la
+              institución.
+            </p>
+            <p>
+              Brindé asesoramiento y orientación a mis compañeros de equipo para
+              optimizar la organización del trabajo, asegurando que cumpliéramos
+              con los plazos comprometidos y mejorando la eficacia general del
+              equipo.
+            </p>
+          </div>
+        </section>
+      </div>
+	  <div class="basis-[30%] flex flex-col gap-4 m-4">
+		<section>
+			<p class="text-xl font-bold mb-4">Ingles B1 – Conversacional</p>
+			<p class="text-2xl font-bold mb-4">Habilidades blandas</p>
+			<div class="flex flex-row gap-8">
+				<ul class="list-disc">
+					<li>Habilidad de Comunicación</li>
+					<li>Empatía</li>
+					<li>Paciencia</li>
+					<li>Creatividad</li>
+					<li>Pensamiento Crítico</li>
+					<li>Adaptabilidad</li>
+					<li>Curiosidad</li>
+					<li>Investigación</li>
+					<li>Compromiso</li>
+				</ul>
+				<ul class="list-disc">
+					<li>Comunicación Digital</li>
+					<li>Habilidades de Debate</li>
+					<li>Escucha Activa</li>
+					<li>Respeto</li>
+					<li>Apertura a la Retroalimentación</li>
+					<li>Optimismo</li>
+					<li>Liderazgo</li>
+					<li>Toma de Decisiones</li>
+					<li>Habilidades de Servicio al Cliente</li>
+				</ul>
 			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-9">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<h4>Knowledge set:</h4>
-							<div class="row">
-								<div class="col-sm-12 col-md-6 col-lg-3">
-									<ul>
-										<h5>Programing Lenguajes</h5>
-										<script>printKnowledge(Lenguajes)</script>
-									</ul>
-								</div>
-								<div class="col-sm-12 col-md-6 col-lg-3">
-									<ul>
-										<h4>Control Version</h4>
-										<script>printKnowledge(Control_Versions)</script>
-									</ul>
-								</div>
-								<div class="col-sm-12  col-lg-6">
-									<ul>
-										<h4>Others</h4>
-										<script>printKnowledge(Technologies)</script>
-										<li>SCRUM Fundamentals Certified</li>
-										<a href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumFundamentalsCertified-EricUrielAvilaBarrios-711063.pdf" target="_blank"><img src="imgs/scrum.png" class="img-thumbnail rounded mx-auto d-block" alt="..."></a>
-										<li>Zinier Certified Solution Builder</li>
-										<a href="files/Eric-Uriel-Avila-Barrios-Z402-Certification-Quiz-Z402-Zinier-Certified-Solution-Builder-Zinier-Learn.pdf" target="_blank"><img src="imgs/zinier.png" class="img-thumbnail rounded mx-auto d-block" style="width: 150px; height: 100px;" alt=""></a>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-12 col-lg-3">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<h5>My Documentation</h5>
-							<ul>
-								<script>printDocs(Docs)</script>
-							</ul>
-							<ul>I still have several notes of my <kbd>NOTION</kbd> that I need to pass to <kbd>GIT</kbd></ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<h4>
-								What am I currently doing?
-							</h4>
-							<p class="text-justify">
-								I currently fulfill the role of <kbd>DevOps</kbd> creating scripts and configuring the company's projects using technologies such as <kbd>Docker</kbd>, <kbd>Jenkins</kbd>, <kbd>Bash Script</kbd>.							
-							</p>
-							<p class="text-justify">
-								A great challenge was to develop Scripts for the management of files of a Bank Company. It was my first experience working with people from other countries and my first "solo" project.
-							</p>
-							<p class="text-justify">
-								By the way, in this company every year a technology innovation project contest is held, and in the two years that I have participated I have won and developed each of my proposals
-								<ul>
-									<li>
-										In 2020 I made a mobile application using <kbd>React Native</kbd> for the APP (using the camera, the device's <kbd>NFC technology</kbd> and <kbd>Arduino</kbd>) also an <kbd>API</kbd> server and a <kbd>Web Page</kbd> using <kbd>Python</kbd> and the <kbd>FLASK</kbd> framework (which consumed the mobile app)
-									</li>
-									<li>
-										And in this year 2021 I am currently developing an <kbd>Augmented Reality Mobile Application</kbd> using <kbd>Unity</kbd> with <kbd>Vuforia</kbd> and <kbd>C Sharp</kbd>.
-									</li>
-								</ul>
-							</p>
-							<p class="text-justify">
-								Also on my initiative, I have made documentation of some company processes in addition to taking notes and sharing them with my co-workers when there are internal courses
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-lg-12">
-						<div class="card shadow p-3 mb-5 bg-white rounded">
-							<h4>My Job Roadmap</h4>
-							<p class="blockquote-footer">Sorted by most recent</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-						<script>printJobs(Jobs)</script>
-				</div>
-			</div>
-			
-
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<p class="text-muted">
-							<script>printText(secret)</script>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<footer>
-				<div class="container-fluid">
-					<div class="text-right">
-							<p>EUAB 2021</p>	
-					</div>
-						
-				</div>
-			
-			</footer>
-
-		</body>
-		
-		</html>
+		</section>
+	  </div>
+    </section>
+  </body>
+</html>
