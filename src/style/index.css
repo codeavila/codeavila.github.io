@@ -2,3 +2,8 @@ body {
     background-image: url('../imgs/blur_layer.svg');
     background-size: cover;
   }
+
+  img.me {
+    clip-path: inset(0px 150px 0px 100px);
+    border-radius: 50rem;
+  }
